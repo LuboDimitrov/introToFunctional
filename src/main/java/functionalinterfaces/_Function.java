@@ -27,7 +27,7 @@ public class _Function {
     //-> lambda
     //abans de -> parametres, despres de -> resultat
 
-    //Definition: Functions are like the methods that return a value
+    //Definition: Functions are like the methods that PERFORM an action and return a value
     static Function<Integer, Integer>  incrementByOne = number -> ++number;
 
     static Function<Integer, Integer> multByTen = number -> number * 10;
