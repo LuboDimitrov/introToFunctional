@@ -11,7 +11,7 @@ public class _Predicate {
         //test evaluates this predicate on the given argument.
         isPhoneNumberValidPredicate.test("07000000000");
 
-        //We can combine predicates, as we did earlier with Functions using "andThen". In this case we use boolean operators
+        //We can combine predicates, the same way as we did earlier with Functions using "andThen". In this case we use boolean operators
         //AND -> both of them have to be true
         //OR -> either one of them needs to be true
         boolean b = isPhoneNumberValidPredicate.and(containsNumber3).test("07000000030");
