@@ -32,7 +32,7 @@ public class _Predicate {
             phoneNumber -> phoneNumber.contains("3");
 
     //Bi predicates takes 2 arguments insteadOfOne.
-    static BiPredicate<String, Boolean> something;
+    //static BiPredicate<String, Boolean> something;
 
 
 }

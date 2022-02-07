@@ -1,0 +1,12 @@
+Pure functional programming rules
+
+1. No state
+2. Pure functions
+    They dont depend on a global state
+    Ur function should not depend on a global variable
+3. No side effects
+    Your function should not have any side effects outside of the function
+4. High order functions
+    A function is considered to be a high order function if one of these conditions are met
+        1. The function takes one or more functions as parameters (callback example)
+        2. The function returns another function as a result. (combinated pattern)

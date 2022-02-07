@@ -17,6 +17,7 @@ public class _Supplier {
     }
 
     //DECLARATIVE
+    //takes no arguments and "supplies" a value
     //So basically suppliers just return any kind of value, whereas
     //Functions modify a value and return it.
     static Supplier<String>getDBConnectionURSupplier =

@@ -43,7 +43,7 @@ public class _Consumer {
 //<Customer>
 
 
-    //Every functional interface (Consumer, Function...) have the Bi version
+    //Every functional interface (Consumer, Function...) has the Bi version
 
     static BiConsumer<Customer, Boolean> greetCustomerBi =
             //parametres
